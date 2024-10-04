@@ -11,3 +11,7 @@ eureka:
     preferIpAddress: true
     leaseRenewalIntervalInSeconds: 5
     leaseExpirationDurationInSeconds: 5
+
+jwt:
+    secret-key: "${JWT-SECRET-KEY}"
+    token-expiration-seconds: "${JWT-TOKEN-EXPIRATION-SETUP}"
