@@ -14,4 +14,4 @@ eureka:
 
 jwt:
     secret-key: "${JWT-SECRET-KEY}"
-    token-expiration-seconds: "${JWT-TOKEN-EXPIRATION-SETUP}"
+    token-expiration-seconds: "${JWT-TOKEN-EXPIRATION-SECONDS}"
