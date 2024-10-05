@@ -13,5 +13,5 @@ eureka:
     leaseExpirationDurationInSeconds: 5
 
 jwt:
-    secret-key: "${JWT-SECRET-KEY}"
-    token-expiration-seconds: "${JWT-TOKEN-EXPIRATION-SECONDS}"
+    secret-key: "${JWT_SECRET_KEY}"
+    token-expiration-seconds: "${JWT_TOKEN_EXPIRATION_SECONDS}"
